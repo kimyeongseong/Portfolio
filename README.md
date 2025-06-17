@@ -33,17 +33,29 @@
 
 **GGJ_2021(빙떡마트)**
 
-  1	네트워크 게임 사이클 관리GameManager.cs	- 싱글턴 패턴으로 전역 접근성 보장- RPC (SetGameStart, selectHunt, gameStart 등)로 헌터·러너 역할 배정, 게임 대기·준비·진행·종료 상태 전환 전부 동기화
+  1	네트워크 게임 사이클 관리GameManager.cs
   
-  2	매치메이킹·로비LobbyManager.cs, NetworkMgr.cs	- 마스터 서버 자동 재접속 로직, 랜덤 룸 참가 실패 시 새 룸 생성- 인원 수 UI (changeConnectCount)와 연결 상태 텍스트로 UX 개선
+  싱글턴 패턴으로 전역 접근성 보장- RPC (SetGameStart, selectHunt, gameStart 등)로 헌터·러너 역할 배정, 게임 대기·준비·진행·종료 상태 전환 전부 동기화
   
-  3	플레이어 생성·관리GameManager.cs, PlayerManager.cs	- PhotonNetwork.Instantiate로 네트워크 플레이어 동적 생성 후 리스트 관리- 플레이어 사망/퇴장 시 런너·헌터 카운트 갱신 및 승패 처리
+  2	매치메이킹·로비LobbyManager.cs, NetworkMgr.cs
   
-  4	위장(모델 변신) 시스템PlayerManager.cs	- changeModel()에서 랜덤 스킨 선택 후 RPC로 모든 클라이언트 동기화 → 숨바꼭질 핵심 재미 요소- 모델 분리·붙이기(modelHold)로 잡았다/풀어줬다 표현
+  마스터 서버 자동 재접속 로직, 랜덤 룸 참가 실패 시 새 룸 생성- 인원 수 UI (changeConnectCount)와 연결 상태 텍스트로 UX 개선
   
-  5	플레이어 컨트롤PlayerManager.cs, Common.cs	- 카메라 암(Cinemachine 없이 직접) + 마우스 입력으로 TPS 시야 회전- 이동·점프·중력 간단 구현, 공용 파라미터(speed, jumpforce) 구조화
+  3	플레이어 생성·관리GameManager.cs, PlayerManager.cs
   
-  6	실시간 UI 동기화GameManager.cs	- OnPhotonSerializeView로 타이머·남은 인원 텍스트를 실시간 전송/수신하여 로컬·원격 모두 동일 화면 유지
+  PhotonNetwork.Instantiate로 네트워크 플레이어 동적 생성 후 리스트 관리- 플레이어 사망/퇴장 시 런너·헌터 카운트 갱신 및 승패 처리
+  
+  4	위장(모델 변신) 시스템PlayerManager.cs
+  
+  changeModel()에서 랜덤 스킨 선택 후 RPC로 모든 클라이언트 동기화 → 숨바꼭질 핵심 재미 요소- 모델 분리·붙이기(modelHold)로 잡았다/풀어줬다 표현
+  
+  5	플레이어 컨트롤PlayerManager.cs, Common.cs
+  
+  카메라 암(Cinemachine 없이 직접) + 마우스 입력으로 TPS 시야 회전- 이동·점프·중력 간단 구현, 공용 파라미터(speed, jumpforce) 구조화
+  
+  6	실시간 UI 동기화GameManager.cs
+  
+  OnPhotonSerializeView로 타이머·남은 인원 텍스트를 실시간 전송/수신하여 로컬·원격 모두 동일 화면 유지
   
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **[용자식당](https://youtu.be/y4u6sUdqxXU)**
