@@ -2,9 +2,9 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**DangerOutside**
+**[DangerOutside](https://www.youtube.com/shorts/YmX-osyXW10?feature=share)**
 
-https://www.youtube.com/shorts/YmX-osyXW10?feature=share
+
 
   1	PlayFab 이메일 로그인/회원가입	EditorLoginManager.Login(), Register(), GetServerDatas()
 
@@ -23,9 +23,9 @@ https://www.youtube.com/shorts/YmX-osyXW10?feature=share
   8	스테이지 데이터 로드&동기화	EditorDataBase (싱글턴 패턴)
  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**MUTE**
+**[MUTE](https://youtu.be/y38XHhIzL0Y?si=Gl-Ovg8Akp7h3ICM)**
 
-https://youtu.be/y38XHhIzL0Y?si=Gl-Ovg8Akp7h3ICM
+
 
   1 기획서
   
@@ -46,7 +46,7 @@ https://youtu.be/y38XHhIzL0Y?si=Gl-Ovg8Akp7h3ICM
   6	실시간 UI 동기화GameManager.cs	- OnPhotonSerializeView로 타이머·남은 인원 텍스트를 실시간 전송/수신하여 로컬·원격 모두 동일 화면 유지
   
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**용자식당**
+**[용자식당](https://youtu.be/y4u6sUdqxXU)**
   
 1	Floor / FloorSystem	타일·가구·층 관리, A* 네비게이션, 저장/로드
 
