@@ -78,40 +78,40 @@
   
 1	Floor / FloorSystem
 
-  타일·가구·층 관리, A* 네비게이션, 저장/로드
+    타일·가구·층 관리, A* 네비게이션, 저장/로드
 
 2	BusinessSystem
 
-  고객·웨이터·주문 시트 큐, 재고 체크
+    고객·웨이터·주문 시트 큐, 재고 체크
 
 3	OrderSheet
 
-  주문 생성·취소·서빙 상태관리, Food·Inventory 연동, 미리보기 스프라이트
+    주문 생성·취소·서빙 상태관리, Food·Inventory 연동, 미리보기 스프라이트
 
 4	GameMode
 
-  모드 전환, 영업 타이머
+    모드 전환, 영업 타이머
 
 5	Inventory / Food / FoodMenu
 
-  돈·재고·만족도, 음식 데이터 래핑·랜덤 주문
+    돈·재고·만족도, 음식 데이터 래핑·랜덤 주문
 
 6	SaveSlotSystem
 
-  슬롯별 JSON 세이브/로드, PlayerPrefs·클라우드(GPGS) 동기화, 디폴트 세이브 배포, 추출 툴
+    슬롯별 JSON 세이브/로드, PlayerPrefs·클라우드(GPGS) 동기화, 디폴트 세이브 배포, 추출 툴
 
 7	EndingSystem
 
-  엔딩 조건 체크·씬 전환
+    엔딩 조건 체크·씬 전환
 
 8	SceneLoader
 
-  인덱스/이름 기반 씬 전환 래퍼
+    인덱스/이름 기반 씬 전환 래퍼
 
 9	LobbySceneSelector
 
-  세이브 존재 여부로 프롤로그/메인 씬 결정
+    세이브 존재 여부로 프롤로그/메인 씬 결정
 
 10	ObjectScroller
 
-  배경 무한 스크롤
+    배경 무한 스크롤
