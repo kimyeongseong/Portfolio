@@ -18,3 +18,8 @@ https://www.youtube.com/shorts/YmX-osyXW10?feature=share
 
   8	스테이지 데이터 로드&동기화	EditorDataBase (싱글턴 패턴)
 
+MUTE
+https://youtu.be/y38XHhIzL0Y?si=Gl-Ovg8Akp7h3ICM
+
+  1 기획서 작성
+  
