@@ -1,6 +1,6 @@
 # Portfolio
 DangerOutside
-
+https://youtu.be/YmX-osyXW1
   1	PlayFab 이메일 로그인/회원가입	EditorLoginManager.Login(), Register(), GetServerDatas()
 
   2	STAGE 저장 및 불러오기 정보	EditorManager 전반 – Start(), OnSaveStage(), StageDropdownChanged() 등
