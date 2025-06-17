@@ -1,6 +1,6 @@
 # Portfolio
 DangerOutside
-https://youtu.be/YmX-osyXW1
+https://www.youtube.com/shorts/YmX-osyXW10?feature=share
 
   1	PlayFab 이메일 로그인/회원가입	EditorLoginManager.Login(), Register(), GetServerDatas()
 
